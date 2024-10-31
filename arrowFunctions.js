@@ -39,7 +39,7 @@ function square(n) {
  * e.g.
  * squares([1, 2, 3]) -> [1, 4, 9]
  */
-function sqaures(numbers) {
+function squares(numbers) {
   // Your code here
 }
 
@@ -47,5 +47,5 @@ module.exports = {
   greet,
   sum,
   square,
-  sqaures,
+  squares,
 };
