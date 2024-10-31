@@ -1,10 +1,10 @@
-# JS-Functions-Part2
+# JS-ArrowFunctions
 
 ## Instructions
 
-- Fork and clone [this repository](https://github.com/JoinCODED/TASK-JS-Functions-Part2) to your `Development` folder.
+- Fork and clone [this repository](https://github.com/JoinCODED/TASK-JS-ArrowFunctions) to your `Development` folder.
   - ```bash
-    git clone git@github.com:<your_username>/TASK-JS-Functions-Part2.git
+    git clone git@github.com:<your_username>/TASK-JS-ArrowFunctions.git
     ```
 
 ### Running The Tests
