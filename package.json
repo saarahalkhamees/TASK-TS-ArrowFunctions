@@ -5,7 +5,7 @@
   "main": "arrowFunctions.js",
   "scripts": {
     "test": "jest --watch",
-    "ghworkflowtest": "test"
+    "ghworkflowtest": "jest"
   },
   "keywords": [],
   "author": "",
