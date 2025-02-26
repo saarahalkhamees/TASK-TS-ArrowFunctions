@@ -1,7 +1,7 @@
 /**
  * Rewrite the following `greet` function as an arrow function
  */
-function greet(name) {
+function greet(name: string) {
   return `Hello ${name}`;
 }
 
@@ -11,7 +11,7 @@ function greet(name) {
  * - returns their sum
  * - write it as an arrow function
  */
-function sum(a, b) {
+function sum(a: number, b: number) {
   // Your code here
 }
 
@@ -25,27 +25,22 @@ function sum(a, b) {
  * square(4) -> 16
  * sqaure(10) -> 100
  */
-function square(n) {
+function square(n: number) {
   // Your code here
 }
 
 /**
  * 🌶️🌶️
  * sqaures(numbers):
- * - receives an array numbers
+ * - receives an array of numbers
  * - returns an array of the squares of the numbers
  * - write it as an arrow function
  *
  * e.g.
  * squares([1, 2, 3]) -> [1, 4, 9]
  */
-function squares(numbers) {
+function squares(numbers: number[]) {
   // Your code here
 }
 
-module.exports = {
-  greet,
-  sum,
-  square,
-  squares,
-};
+export { greet, sum, square, squares };
