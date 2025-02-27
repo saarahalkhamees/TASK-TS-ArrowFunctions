@@ -8,18 +8,20 @@ function isArrowFunction(fn: Function) {
   );
 }
 
-describe("🌶️🌶️ squares", () => {
-  it("should return an array of squares", () => {
-    const numbers = Array(10)
-      .fill(0)
-      .map(() => faker.number.int({ max: 100 }));
+describe("Challenge", () => {
+  describe("🌶️🌶️ squares", () => {
+    it("should return an array of squares", () => {
+      const numbers = Array(10)
+        .fill(0)
+        .map(() => faker.number.int({ max: 100 }));
 
-    const results = squares(numbers);
+      const results = squares(numbers);
 
-    results.forEach((n, i) => expect(n).toBe(numbers[i] ** 2));
-  });
+      results.forEach((n, i) => expect(n).toBe(numbers[i] ** 2));
+    });
 
-  it("should be an arrow function", () => {
-    expect(isArrowFunction(squares)).toBe(true);
+    it("should be an arrow function", () => {
+      expect(isArrowFunction(squares)).toBe(true);
+    });
   });
 });
