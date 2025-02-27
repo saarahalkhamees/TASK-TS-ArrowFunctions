@@ -1,46 +1,70 @@
 /**
  * Rewrite the following `greet` function as an arrow function
+ * Before you start, **comment out** the existing `greet` function below
+ * The arrow function must have the **same type declaration** as the original function
  */
-function greet(name: string) {
+
+// Comment out this function before starting your solution
+function greet(name: string): string {
   return `Hello ${name}`;
 }
 
+// example:
+greet("Aziz"); // => "Hello Aziz"
+
 /**
  * sum(a, b):
- * - revieces two numbers
- * - returns their sum
+ * - Accepts 2 parameters (a and b)
+ * - Accepts "a" parameter of type "number"
+ * - Accepts "b" parameter of type "number"
+ * - return the sum of "a" and "b"
  * - write it as an arrow function
+ * - Before you start, **comment out** the existing `sum` function below
+ * - The arrow function must have the **same type declaration** as the original function
  */
-function sum(a: number, b: number) {
-  // Your code here
+
+// Comment out this function before starting your solution
+function sum(a: number, b: number): number {
+  return Infinity;
 }
+
+// example:
+sum(5, 7); // => 12
 
 /**
  * square(n):
- * - receives a number n
- * - returns the square of the number
+ * - Accepts "n" parameter of type "number"
+ * - returns the square of "n"
  * - write it as an arrow function
- *
- * e.g.
- * square(4) -> 16
- * sqaure(10) -> 100
+ * - Before you start, **comment out** the existing `square` function below
+ * - The arrow function must have the **same type declaration** as the original function
  */
-function square(n: number) {
-  // Your code here
+
+// Comment out this function before starting your solution
+function square(n: number): number {
+  return Infinity;
 }
+
+// example:
+square(4); // => 16
+square(10); // => 100
 
 /**
  * 🌶️🌶️
- * sqaures(numbers):
- * - receives an array of numbers
- * - returns an array of the squares of the numbers
- * - write it as an arrow function
- *
- * e.g.
- * squares([1, 2, 3]) -> [1, 4, 9]
+ * squares(numbers):
+ * - Accepts "numbers" parameter of type "number[]"
+ * - returns an array of numbers were each element of "numbers" argument is squared
+ * - write it as an arrow function 
+ * - Before you start, **comment out** the existing `square` function below
+ * - The arrow function must have the **same type declaration** as the original function
  */
-function squares(numbers: number[]) {
-  // Your code here
+
+// Comment out this function before starting your solution
+function squares(numbers: number[]): number[] {
+  return [0];
 }
+
+// example:
+squares([1, 2, 3]); // => [1, 4, 9]
 
 export { greet, sum, square, squares };
